@@ -1,0 +1,21 @@
+# Dependencies & build (future)
+node_modules/
+dist/
+build/
+.vite/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Logs & coverage
+*.log
+coverage/
